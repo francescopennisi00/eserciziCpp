@@ -17,7 +17,7 @@ int main() {
     for(int i = 0; i < 10; i++) {
         flag = 0;
         for(int k=0; k < 10; k++) {
-            if (cass[i] == cass[k]) {
+            if (cass[i] == cass[k] && k!=i) {
                 flag = 1;
             }
         }
